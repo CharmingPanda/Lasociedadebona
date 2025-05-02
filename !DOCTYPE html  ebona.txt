@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Sociedad Ebona</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #0a0a0a;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #f4b400;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    section h2 {
+      color: #f4b400;
+      border-bottom: 2px solid #333;
+      padding-bottom: 0.5rem;
+    }
+    .quote {
+      background: #1a1a1a;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border-left: 5px solid #f4b400;
+    }
+    .contact, .donate {
+      background: #111;
+      padding: 2rem;
+      text-align: center;
+    }
+    a {
+      color: #f4b400;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .states {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .states a {
+      background: #222;
+      padding: 0.6rem 1rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      transition: background 0.3s;
+    }
+    .states a:hover {
+      background: #f4b400;
+      color: #000;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      section {
+        padding: 2rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>La Sociedad Ebona</h1>
+    <p>A Legacy of Excellence</p>
+  </header>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p>
+      To uplift, educate, and empower the Black community through knowledge, culture,
+      and unity. We stand for justice, equality, and pride in our heritage.
+    </p>
+  </section>
+
+  <section>
+    <h2>About Us</h2>
+    <p>
+      This is a platform built by the people, for the people. We aim to spotlight
+      achievements, share resources, and create a space for voices that matter.
+    </p>
+  </section>
+
+  <section>
+    <h2>Powerful Words</h2>
+    <div class="quote">
+      <strong>“The time is always right to do what is right.”</strong><br />
+      — Martin Luther King Jr.
+    </div>
+    <div class="quote">
+      <strong>“I am no longer accepting the things I cannot change. I am changing the things I cannot accept.”</strong><br />
+      — Angela Davis
+    </div>
+  </section>
+
+  <section class="donate">
+    <h2>Support the Movement</h2>
+    <p>Every contribution makes a difference. Help us continue our work.</p>
+    <a href="https://www.yourdonationlink.com" target="_blank">💸 Donate Now</a>
+  </section>
+
+  <section>
+    <h2>Help by State</h2>
+    <p>Select your state to view local resources and support initiatives.</p>
+    <div class="states">
+      <!-- First 25 states -->
+      <a href="#">Alabama</a><a href="#">Alaska</a><a href="#">Arizona</a><a href="#">Arkansas</a><a href="#">California</a>
+      <a href="#">Colorado</a><a href="#">Connecticut</a><a href="#">Delaware</a><a href="#">Florida</a><a href="#">Georgia</a>
+      <a href="#">Hawaii</a><a href="#">Idaho</a><a href="#">Illinois</a><a href="#">Indiana</a><a href="#">Iowa</a>
+      <a href="#">Kansas</a><a href="#">Kentucky</a><a href="#">Louisiana</a><a href="#">Maine</a><a href="#">Maryland</a>
+      <a href="#">Massachusetts</a><a href="#">Michigan</a><a href="#">Minnesota</a><a href="#">Mississippi</a><a href="#">Missouri</a>
+      <!-- Second 25 states -->
+      <a href="#">Montana</a><a href="#">Nebraska</a><a href="#">Nevada</a><a href="#">New Hampshire</a><a href="#">New Jersey</a>
+      <a href="#">New Mexico</a><a href="#">New York</a><a href="#">North Carolina</a><a href="#">North Dakota</a><a href="#">Ohio</a>
+      <a href="#">Oklahoma</a><a href="#">Oregon</a><a href="#">Pennsylvania</a><a href="#">Rhode Island</a><a href="#">South Carolina</a>
+      <a href="#">South Dakota</a><a href="#">Tennessee</a><a href="#">Texas</a><a href="#">Utah</a><a href="#">Vermont</a>
+      <a href="#">Virginia</a><a href="#">Washington</a><a href="#">West Virginia</a><a href="#">Wisconsin</a><a href="#">Wyoming</a>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact & Connect</h2>
+    <p>Email us at: <a href="mailto:empower@sociedadebona.org">empower@sociedadebona.org</a></p>
+  </section>
+</body>
+</html>

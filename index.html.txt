@@ -4,53 +4,69 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>La Sociedad Ebona</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Arial', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       background-color: #0a0a0a;
       color: #fff;
       line-height: 1.6;
     }
+
     header {
-      background: #111;
+      background: url('https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
       text-align: center;
-      padding: 4rem 2rem;
+      padding: 5rem 2rem;
+      color: white;
     }
+
     header h1 {
+      font-family: 'Playfair Display', serif;
       font-size: 3rem;
-      color: #f4b400;
+      margin-bottom: 0.5rem;
+      color: #fff;
+      text-shadow: 1px 1px 3px black;
     }
+
     header p {
       font-size: 1.2rem;
-      color: #ccc;
+      color: #f4b400;
+      text-shadow: 1px 1px 2px black;
     }
+
     section {
       padding: 3rem 2rem;
       max-width: 800px;
       margin: auto;
     }
+
     section h2 {
       color: #f4b400;
       border-bottom: 2px solid #333;
       padding-bottom: 0.5rem;
+      font-family: 'Playfair Display', serif;
     }
+
     .quote {
       background: #1a1a1a;
       padding: 1.5rem;
       margin: 1rem 0;
       border-left: 5px solid #f4b400;
     }
+
     .contact, .donate {
       background: #111;
       padding: 2rem;
       text-align: center;
     }
+
     a {
       color: #f4b400;
       text-decoration: none;
       font-weight: bold;
     }
+
     .states {
       display: flex;
       flex-wrap: wrap;
@@ -58,6 +74,7 @@
       gap: 0.5rem;
       margin-top: 1rem;
     }
+
     .states a {
       background: #222;
       padding: 0.6rem 1rem;
@@ -65,10 +82,12 @@
       font-size: 0.9rem;
       transition: background 0.3s;
     }
+
     .states a:hover {
       background: #f4b400;
       color: #000;
     }
+
     @media (max-width: 600px) {
       header h1 {
         font-size: 2.2rem;
@@ -123,13 +142,11 @@
     <h2>Help by State</h2>
     <p>Select your state to view local resources and support initiatives.</p>
     <div class="states">
-      <!-- First 25 states -->
       <a href="#">Alabama</a><a href="#">Alaska</a><a href="#">Arizona</a><a href="#">Arkansas</a><a href="#">California</a>
       <a href="#">Colorado</a><a href="#">Connecticut</a><a href="#">Delaware</a><a href="#">Florida</a><a href="#">Georgia</a>
       <a href="#">Hawaii</a><a href="#">Idaho</a><a href="#">Illinois</a><a href="#">Indiana</a><a href="#">Iowa</a>
       <a href="#">Kansas</a><a href="#">Kentucky</a><a href="#">Louisiana</a><a href="#">Maine</a><a href="#">Maryland</a>
       <a href="#">Massachusetts</a><a href="#">Michigan</a><a href="#">Minnesota</a><a href="#">Mississippi</a><a href="#">Missouri</a>
-      <!-- Second 25 states -->
       <a href="#">Montana</a><a href="#">Nebraska</a><a href="#">Nevada</a><a href="#">New Hampshire</a><a href="#">New Jersey</a>
       <a href="#">New Mexico</a><a href="#">New York</a><a href="#">North Carolina</a><a href="#">North Dakota</a><a href="#">Ohio</a>
       <a href="#">Oklahoma</a><a href="#">Oregon</a><a href="#">Pennsylvania</a><a href="#">Rhode Island</a><a href="#">South Carolina</a>
